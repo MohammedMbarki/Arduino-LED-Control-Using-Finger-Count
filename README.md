@@ -1,6 +1,12 @@
 # Arduino-LED-Control-Using-Finger-Count
 Arduino LED Control Using Finger Count with open cv
 
+
+
+
+
+
+
 ## Setup Instructions
 
 > [!IMPORTANT]
@@ -59,3 +65,6 @@ In this project, Arduino and Python each play crucial roles:
 
 
 
+# video reference 
+
+[View the project attachments on GitHub](https://github.com/user-attachments/assets/fcd7bd6f-6503-4471-9a6c-ab7cafcd9738)
