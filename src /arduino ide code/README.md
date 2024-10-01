@@ -1,18 +1,5 @@
   ```cpp
-/*
-  This code controls a series of LEDs on an Arduino Uno based on finger count data 
-  received from a Python script. The script detects the number of fingers shown 
-  to a camera and sends this data to the Arduino via serial communication. The Arduino 
-  then lights up the corresponding number of LEDs.
 
-  The LEDs are connected to digital pins 2 through 6, with the number of lit LEDs 
-  corresponding to the finger count detected by the Python script.
-
-  Board: Arduino Uno R3 (or R4)
-  Components: LEDs, Resistors
-
-  Wulu from SunFounder 2024.08
-*/
 
 // Define the LED pins
 const int ledPins[] = {2, 3, 4, 5, 6}; // Pins where the LEDs are connected
