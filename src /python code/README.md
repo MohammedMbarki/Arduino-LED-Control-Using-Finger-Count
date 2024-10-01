@@ -1,22 +1,6 @@
   ```python
 
-"""
-This script captures video from a camera, detects the number of fingers shown using 
-the MediaPipe Hands module, and sends the finger count to an Arduino via serial communication.
 
-The script uses OpenCV to process the video feed and MediaPipe to perform hand and finger 
-detection. The number of fingers detected is displayed on the video frame and sent to 
-the Arduino in real-time.
-
-Components:
-- Camera: Captures the video feed.
-- Arduino: Receives the finger count via serial communication and controls LEDs accordingly.
-
-Serial Communication:
-- Port: 'COM5' (Modify as needed)
-- Baud Rate: 115200
-
-"""
 
 import cv2
 import mediapipe as mp
